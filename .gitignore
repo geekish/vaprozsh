@@ -1,0 +1,29 @@
+# Folder view, spotlight, external disk junk, etc.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Log files
+*.log
+error_log
+
+# Node
+node_modules
+
+# Project specific
+.git
+.vagrant
+
+conf/*
+!conf/0-wordpress.conf
+!conf/dev.conf
+# !conf/docs.conf
+
+log/*
+!log/.gitkeep
+
+www/*
+!www/default
+# !www/docs

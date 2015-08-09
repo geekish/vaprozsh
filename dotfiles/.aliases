@@ -1,0 +1,35 @@
+# Syntax highlighting for this file in Atom
+# -*- grammar-ext: .sh -*-
+
+# apt
+alias agi='sudo apt-get install'
+alias agr='sudo apt-get remove'
+alias agu='sudo apt-get update'
+
+alias autoupdate='agu && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo reboot'
+
+# File Navigation & Management
+alias edit='sudo nano'
+alias hosts='edit /etc/hosts'
+alias ls='ls -a'
+alias www='cd ~/www/'
+alias mkdir='mkdir -p'
+alias chown='chown -Rv'
+alias chmod='chmod -Rv'
+
+# Composer
+alias composerup='composer global update'
+alias composerdump='composer dumpautoload --optimize'
+alias composerproject='composer create-project'
+
+# nginx
+alias ngdir='cd /etc/nginx'
+alias ngsites='cd /etc/sites-available'
+alias ngconfd='cd /etc/conf.d'
+alias ngconf='sudo nano /etc/nginx/nginx.conf'
+alias ngdefault='sudo nano /etc/nginx/sites-available/default'
+alias ngvagrant='sudo nano /etc/nginx/sites-available/vagrant'
+alias ngstart='sudo service nginx start'
+alias ngrestart='sudo service nginx restart'
+alias ngstop='sudo service nginx stop'
+alias ngtest='sudo nginx -t'

@@ -1,0 +1,18 @@
+root = true
+charset = utf-8
+
+[Vagrantfile]
+indent_style = space
+indent_size = 2
+
+[*.js]
+indent_style = space
+indent_size = 4
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+[*.sh]
+indent_style = space
+indent_size = 2
