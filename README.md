@@ -13,6 +13,7 @@ Uses vaprobash scripts to install only what I need:
 - Custom script installs zsh, antigen
 
 ### Networking
+- Box is on `192.168.22.10` (default)
 - host port `8337` forwards to VM at `80`
 - host port `2222` forwards to VM at `22` (default)
 
@@ -27,4 +28,6 @@ Uses vaprobash scripts to install only what I need:
 3. Add your projects:
     - `dev.conf` provides a wildcard `*.dev` vhost pointing to `~/www/*/public` - this just happens to be where all of my projects' public files are. You can edit this or add additional vhosts; see `0-wordpress.conf` for an example.
 
-I recommend using `dnsmasq` to handle the `*.dev`, especially now that it's a registered TLD... thanks Google.
+I recommend using `dnsmasq` to handle `*.dev`, especially now that it's a registered TLD... thanks Google.
+
+Check out the [vaprobash docs](http://fideloper.github.io/Vaprobash/index.html) for more information.
