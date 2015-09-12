@@ -23,7 +23,7 @@ Uses vaprobash scripts to install only what I need:
 - `www` dir syncs to `/home/vagrant/www`
 
 ## Install & Run
-1. Clone repo: `git clone git@github.com:hannahwarmbier/vaprozsh.git ~/vaprozsh`
+1. Clone repo: `git clone git@github.com:geekish/vaprozsh.git ~/vaprozsh`
 2. Start the VM: `cd ~/vaprozsh && vagrant up`
 3. Add your projects:
     - `dev.conf` provides a wildcard `*.dev` vhost pointing to `~/www/*/public` - this just happens to be where all of my projects' public files are. You can edit this or add additional vhosts; see `0-wordpress.conf` for an example.
