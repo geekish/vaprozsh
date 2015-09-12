@@ -17,10 +17,13 @@ alias mkdir='mkdir -p'
 alias chown='chown -Rv'
 alias chmod='chmod -Rv'
 
-# Composer
-alias composerup='composer global update'
+# Composer/php
+alias composerup='composer update'
+alias composerupg='composer global update'
 alias composerdump='composer dumpautoload --optimize'
 alias composerproject='composer create-project'
+alias composerproject='composer create-project -n -s dev'
+alias phprestart='sudo service php5-fpm restart'
 
 # nginx
 alias ngdir='cd /etc/nginx'
