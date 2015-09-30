@@ -13,4 +13,4 @@ antigen theme zenorocha/dracula-theme zsh/dracula
 antigen apply
 
 source $HOME/.aliases
-export PATH=~/.composer/vendor/bin:$PATH
+export PATH=~/bin:~/.composer/vendor/bin:$PATH
