@@ -10,3 +10,4 @@ vaprozsh
 - [ ] Global composer packages - include a file instead? Handle this myself?
 - [ ] Use `www` dir outside of the repo or make this updateable without git (Composer? ehh) - having git repos within `www` is making things weird
 - [ ] Add adminer or something similar to manage databases because all of the SQLite apps for Mac SUCK
+- [ ] Add something to regularly purge log files?
